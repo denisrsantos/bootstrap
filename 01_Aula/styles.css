@@ -1,0 +1,19 @@
+.container-fluid {
+    background-color: #999;
+    border: 5px dotted blue;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.row {
+    border: 5px solid puple;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 0;
+}
+
+.col {
+    border: 2px dashed red;
+    height: 100%;
+    margin:0 ;
+}
