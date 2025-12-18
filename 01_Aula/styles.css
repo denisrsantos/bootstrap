@@ -1,19 +1,80 @@
-.container-fluid {
-    background-color: #999;
+/* Foco em Breakpoints */
+/* XS */
+.h1 {
+    color: blue;
+}
+
+/* SM */
+@media (min-width: 576px) {
+    h1 {
+        color: blue;
+    }
+}
+
+/* MD */
+@media (min-width: 768px) {
+    h1 {
+        color: green;
+    }
+}
+
+/* LG */
+@media (min-width: 992px) {
+    h1 {
+        color: purple;
+    }
+}
+
+/* Classe de botoes personalizada */
+.btn-primary {
+    background-color: lightblue;
+    font-size: 20px;
+    border: none;
+}
+
+/* Containeres */
+.container {
+    background-color:#999;
+} */
+
+ .container-fluid {
+    background-color: #887;
+}
+
+/* Container breakpoints */
+ .container-sm {
+    margin-bottom: 30px;
+    border: 2px solid blue;
+}
+
+.container-md {
+    margin-bottom: 30px;
+    border: 2px solid crimson;
+}
+
+.container-lg {
+    margin-bottom: 30px;
+    border: 2px solid chocolate;
+}
+
+/* Grid */
+.container {
     border: 5px dotted blue;
     padding: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 300px
 }
 
 .row {
-    border: 5px solid puple;
+    border: 5px solid purple;
     height: 100px;
     padding: 10px;
-    margin-bottom: 0;
+    margin: 0;
 }
 
-.col {
+.col,
+.col-4,
+.col-2 {
     border: 2px dashed red;
     height: 100%;
-    margin:0 ;
+    margin: 0;
 }

@@ -1,19 +1,79 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Layout</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <h1>Layout da Aula 1</h1>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col">Produto A</div>
-            <div class="col">Produto B</div>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Layout</title>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    </head>
+        <body>
+        <h1>Layout</h1>
+        <button class="btn btn-primary">Clica aqui!</button>
+
+        <!-- Container -->
+        <div class="container">
+            <h2>Titulo da seção 1</h2>
+            <p>Conteudo do container 1</p>
+            <p>Conteudo do container 2</p>
+            <p>Conteudo do container 3</p>
         </div>
-    </div>
-    
-</body>
-</html>
+
+        <!-- Container Fluid -->
+        <div class="container-fluid">
+            <h2>Titulo da seção 2</h2>
+            <p>Conteudo do container 4</p>
+            <p>Conteudo do container 5</p>
+            <p>Conteudo do container 6</p>
+        </div>
+
+        <!-- Container Breakpoint -->
+        <div class="container-sm">
+            <h2>Titulo da seção</h2>
+            <p>Conteudo do container 1</p>
+        </div>
+
+        <!-- Container Breakpoint -->
+        <div class="container-md">
+            <h2>Titulo da seção</h2>
+            <p>Conteudo do container 1</p>
+        </div>
+
+        <!-- Container Breakpoint -->
+        <div class="container-lg">
+            <h2>Titulo da seção</h2>
+            <p>Conteudo do container 1</p>
+        </div>
+
+        <!-- Grid -->
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p>Produto A</p>
+                </div>
+                <div class="col">
+                    <p>Produto B</p>
+                </div>
+            </div>
+                <div class="row">
+                    <div class="col">
+                        <p>Produto C</p>
+                    </div>
+                <div class="col">
+                    <p> Produto D</p>
+                </div>
+                <div class="col">
+                    <p>Produto E</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tamanho das colunas -->
+         <div class="container">
+            <div class="row">
+                <div class="col-4"></div>
+            </div>
+         </div>
+
+        </body>
+    </html>
